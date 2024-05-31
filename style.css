@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.harry{
+    width: 14rem;
+    height: 14rem;
+    border-radius: 3rem;
+}
+.container{
+    width: 90wh;
+    height: 90vh;
+    margin: 2rem;
+    border: 2px solid black;
+    /* box-shadow: 12px 13px 15px black; */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 3rem;
+}
+.mainDiv{
+    text-align: center;
+}
+.mainDiv h1{
+    margin: 1rem;
+}
+.input{
+   font-size: 1.3rem;
+   padding: 0.3rem;
+   width: 45rem;
+   border-radius: 1rem;
+}
+.SearchBtn{
+   font-size: 1.3rem;
+padding: 0.3rem;
+border-radius: 1rem;
+}
+
+
+.right{
+    display:flex;
+    margin-top: 2rem;
+    width: 95%;
+    margin-left: 2rem;
+    /* border: 2px solid black; */
+    /* box-shadow: 1px 14px 15px black;
+     */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 1rem;
+    border-radius: 4%;
+}
+.rightMargin{
+    margin: 2rem;
+}
+.lang , .description{
+   font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+
+}
+.languages, .descriptionAns{
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+}
+
+.hidden {
+    display: none;
+}
